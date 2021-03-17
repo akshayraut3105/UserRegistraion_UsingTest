@@ -10,7 +10,10 @@ namespace registration_regex
             RegexValidation regexValidation = new RegexValidation();
             Console.Write("Enter Your First Name::-");
             string FirstName = Console.ReadLine();
-            Console.WriteLine(value: regexValidation.ValidateFirstName(FirstName));
+            Console.WriteLine(regexValidation.ValidateFirstName(FirstName));
+            Console.Write("Enter Your Last Name::-");
+            string LastName = Console.ReadLine();
+            Console.WriteLine(regexValidation.ValidateLastName(LastName));
         }
     }
 }
