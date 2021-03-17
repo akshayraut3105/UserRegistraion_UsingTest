@@ -7,7 +7,7 @@ namespace registration_regex
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("====Welcome to my registration form regex apllication by Amit Rana====");
+            Console.WriteLine("Welcome to my registration form regex apllication by Akshay");
             RegexValidation regexValidation = new RegexValidation();
             Console.WriteLine("Enter Your First Name::-");
             string FirstName = Console.ReadLine();
