@@ -15,7 +15,7 @@ namespace Registrationtest
         [TestMethod]
         public void GivenUserFistName_WhenValidate_ShouldReturnTrue()
         {
-            string FirstName = "Amit";
+            string FirstName = "Akshay";
             //Act
             bool result = person.ValidateFirstName(FirstName);
             //Assert
