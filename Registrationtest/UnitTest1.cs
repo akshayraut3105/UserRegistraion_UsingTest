@@ -59,5 +59,15 @@ namespace Registrationtest
             //Assert
             Assert.IsTrue(result);
         }
+        [TestMethod]
+        [DataRow("akshay@ygmail.com")]
+        [DataRow("asr@gmail.com")]
+        [DataRow("asr.123@xyz.com")]
+        [DataRow("akshayraut@gmail.com")]
+        
+        public void ValidateEmailId_Should_return_true(string email)
+        {
+            Assert.IsTrue(person.ValidateEmail(email));
+        }
     }
 }
