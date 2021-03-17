@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 
 namespace registration_regex
@@ -7,7 +7,7 @@ namespace registration_regex
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("====Welcome to User Registration Problem Akshay");
+            Console.WriteLine("Welcome to my registration form regex apllication by Akshay");
             RegexValidation regexValidation = new RegexValidation();
             Console.WriteLine("Enter Your First Name::-");
             string FirstName = Console.ReadLine();
